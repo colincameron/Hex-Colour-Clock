@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B6034C01AA516BA00E7A526 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6034BF1AA516BA00E7A526 /* AppDelegate.swift */; };
+		3B6034C21AA516BA00E7A526 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B6034C11AA516BA00E7A526 /* Images.xcassets */; };
+		3B6034C51AA516BA00E7A526 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B6034C31AA516BA00E7A526 /* MainMenu.xib */; };
+		3B6034D11AA516BB00E7A526 /* Hex_Colour_ClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6034D01AA516BB00E7A526 /* Hex_Colour_ClockTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B6034CB1AA516BB00E7A526 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B6034B21AA516BA00E7A526 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B6034B91AA516BA00E7A526;
+			remoteInfo = "Hex Colour Clock";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B6034BA1AA516BA00E7A526 /* Hex Colour Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hex Colour Clock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B6034BE1AA516BA00E7A526 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B6034BF1AA516BA00E7A526 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B6034C11AA516BA00E7A526 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3B6034C41AA516BA00E7A526 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3B6034CA1AA516BB00E7A526 /* Hex Colour ClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hex Colour ClockTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B6034CF1AA516BB00E7A526 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B6034D01AA516BB00E7A526 /* Hex_Colour_ClockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hex_Colour_ClockTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B6034B71AA516BA00E7A526 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B6034C71AA516BB00E7A526 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B6034B11AA516B900E7A526 = {
+			isa = PBXGroup;
+			children = (
+				3B6034BC1AA516BA00E7A526 /* Hex Colour Clock */,
+				3B6034CD1AA516BB00E7A526 /* Hex Colour ClockTests */,
+				3B6034BB1AA516BA00E7A526 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B6034BB1AA516BA00E7A526 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B6034BA1AA516BA00E7A526 /* Hex Colour Clock.app */,
+				3B6034CA1AA516BB00E7A526 /* Hex Colour ClockTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B6034BC1AA516BA00E7A526 /* Hex Colour Clock */ = {
+			isa = PBXGroup;
+			children = (
+				3B6034BF1AA516BA00E7A526 /* AppDelegate.swift */,
+				3B6034C11AA516BA00E7A526 /* Images.xcassets */,
+				3B6034C31AA516BA00E7A526 /* MainMenu.xib */,
+				3B6034BD1AA516BA00E7A526 /* Supporting Files */,
+			);
+			path = "Hex Colour Clock";
+			sourceTree = "<group>";
+		};
+		3B6034BD1AA516BA00E7A526 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B6034BE1AA516BA00E7A526 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B6034CD1AA516BB00E7A526 /* Hex Colour ClockTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B6034D01AA516BB00E7A526 /* Hex_Colour_ClockTests.swift */,
+				3B6034CE1AA516BB00E7A526 /* Supporting Files */,
+			);
+			path = "Hex Colour ClockTests";
+			sourceTree = "<group>";
+		};
+		3B6034CE1AA516BB00E7A526 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B6034CF1AA516BB00E7A526 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B6034B91AA516BA00E7A526 /* Hex Colour Clock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B6034D41AA516BB00E7A526 /* Build configuration list for PBXNativeTarget "Hex Colour Clock" */;
+			buildPhases = (
+				3B6034B61AA516BA00E7A526 /* Sources */,
+				3B6034B71AA516BA00E7A526 /* Frameworks */,
+				3B6034B81AA516BA00E7A526 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hex Colour Clock";
+			productName = "Hex Colour Clock";
+			productReference = 3B6034BA1AA516BA00E7A526 /* Hex Colour Clock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B6034C91AA516BB00E7A526 /* Hex Colour ClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B6034D71AA516BB00E7A526 /* Build configuration list for PBXNativeTarget "Hex Colour ClockTests" */;
+			buildPhases = (
+				3B6034C61AA516BB00E7A526 /* Sources */,
+				3B6034C71AA516BB00E7A526 /* Frameworks */,
+				3B6034C81AA516BB00E7A526 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B6034CC1AA516BB00E7A526 /* PBXTargetDependency */,
+			);
+			name = "Hex Colour ClockTests";
+			productName = "Hex Colour ClockTests";
+			productReference = 3B6034CA1AA516BB00E7A526 /* Hex Colour ClockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B6034B21AA516BA00E7A526 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Colin Cameron";
+				TargetAttributes = {
+					3B6034B91AA516BA00E7A526 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					3B6034C91AA516BB00E7A526 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 3B6034B91AA516BA00E7A526;
+					};
+				};
+			};
+			buildConfigurationList = 3B6034B51AA516BA00E7A526 /* Build configuration list for PBXProject "Hex Colour Clock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B6034B11AA516B900E7A526;
+			productRefGroup = 3B6034BB1AA516BA00E7A526 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B6034B91AA516BA00E7A526 /* Hex Colour Clock */,
+				3B6034C91AA516BB00E7A526 /* Hex Colour ClockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B6034B81AA516BA00E7A526 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B6034C21AA516BA00E7A526 /* Images.xcassets in Resources */,
+				3B6034C51AA516BA00E7A526 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B6034C81AA516BB00E7A526 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B6034B61AA516BA00E7A526 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B6034C01AA516BA00E7A526 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B6034C61AA516BB00E7A526 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B6034D11AA516BB00E7A526 /* Hex_Colour_ClockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B6034CC1AA516BB00E7A526 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B6034B91AA516BA00E7A526 /* Hex Colour Clock */;
+			targetProxy = 3B6034CB1AA516BB00E7A526 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B6034C31AA516BA00E7A526 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B6034C41AA516BA00E7A526 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B6034D21AA516BB00E7A526 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B6034D31AA516BB00E7A526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3B6034D51AA516BB00E7A526 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Hex Colour Clock/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3B6034D61AA516BB00E7A526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Hex Colour Clock/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3B6034D81AA516BB00E7A526 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Hex Colour ClockTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hex Colour Clock.app/Contents/MacOS/Hex Colour Clock";
+			};
+			name = Debug;
+		};
+		3B6034D91AA516BB00E7A526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Hex Colour ClockTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hex Colour Clock.app/Contents/MacOS/Hex Colour Clock";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B6034B51AA516BA00E7A526 /* Build configuration list for PBXProject "Hex Colour Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B6034D21AA516BB00E7A526 /* Debug */,
+				3B6034D31AA516BB00E7A526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B6034D41AA516BB00E7A526 /* Build configuration list for PBXNativeTarget "Hex Colour Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B6034D51AA516BB00E7A526 /* Debug */,
+				3B6034D61AA516BB00E7A526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3B6034D71AA516BB00E7A526 /* Build configuration list for PBXNativeTarget "Hex Colour ClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B6034D81AA516BB00E7A526 /* Debug */,
+				3B6034D91AA516BB00E7A526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B6034B21AA516BA00E7A526 /* Project object */;
+}
